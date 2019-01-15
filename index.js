@@ -15,18 +15,19 @@ function distanceTravelledInFeet (startBlock, endBlock) {
   return distTravBlock * 264;
 }
 
-// function calculatesFarePrice(startBlock, endBlock) {
-//   let numFeet = distanceTravelledInFeet(startBlock, endBlock);
-//   if (numFeet < 400) {
-//     return 0;
-//   }
-//   else if (numFeet < 2000) && (numFeet >= 400) {
-//     return numFeet * 0.02;
-//   }
-//   else if (numFeet >= 2000) && (numFeet <= 2500) {
-//     return 25;
-//   }
-//   else {
-//     return "cannot travel that far"
-//   }
-// }
+function calculatesFarePrice(startBlock, endBlock) {
+  let numFeet = distanceTravelledInFeet(startBlock, endBlock);
+  return 0;
+  // if (numFeet < 400) {
+  //   return 0;
+  // }
+  // else if (numFeet < 2000) && (numFeet >= 400) {
+  //   return numFeet * 0.02;
+  // }
+  // else if (numFeet >= 2000) && (numFeet <= 2500) {
+  //   return 25;
+  // }
+  // else {
+  //   return "cannot travel that far"
+  // }
+}
