@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(curBlock) {
-  return abs(curBlock - 42);
+  return Math.abs(curBlock - 42);
 
 }
 
