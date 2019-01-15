@@ -12,6 +12,8 @@ function distanceFromHqInFeet (block) {
 
 function distanceTravelledInFeet (startBlock, endBlock) {
   // block is 264 ft
+  let distTravBlock = Math.abs(endBlock - startBlock);
+  return distTravBlock * 264;
 }
 
 function calculatesFarePrice(startBlock, endBlock) {
