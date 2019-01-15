@@ -1,6 +1,6 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(blocks) {
-
+function distanceFromHqInBlocks(curBlock) {
+  return curBlock - 42;
 }
 
 function distanceFromHqInFeet (block) {
