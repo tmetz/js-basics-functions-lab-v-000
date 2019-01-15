@@ -23,10 +23,10 @@ function calculatesFarePrice(startBlock, endBlock) {
   else if ((numFeet < 2000) && (numFeet >= 400)) {
     return (numFeet - 400) * 0.02;
   }
-  // else if (numFeet >= 2000) && (numFeet <= 2500) {
-  //   return 25;
-  // }
-  // else {
-  //   return "cannot travel that far"
-  // }
+  else if (numFeet >= 2000 && numFeet <= 2500) {
+    return 25;
+  }
+  else {
+    return "cannot travel that far"
+  }
 }
