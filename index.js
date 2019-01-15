@@ -17,10 +17,9 @@ function distanceTravelledInFeet (startBlock, endBlock) {
 
 function calculatesFarePrice(startBlock, endBlock) {
   let numFeet = distanceTravelledInFeet(startBlock, endBlock);
-  return 0;
-  // if (numFeet < 400) {
-  //   return 0;
-  // }
+  if (numFeet < 400) {
+    return 0;
+  }
   // else if (numFeet < 2000) && (numFeet >= 400) {
   //   return numFeet * 0.02;
   // }
